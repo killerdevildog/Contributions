@@ -29,7 +29,7 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | Project | RID | Description |
 |---------|-----|-------------|
 | **rad-meta** | `rad:z4VghZAUgCSvz9s2p9AgJ9AY7ricx` | CLI for searching Radicle repositories via search.radicle.xyz |
-| **test_rad_pushlished_git** | `rad:z34ZmBpUW1uQJX3Aohe5PQDGtmMhe` | Test project for Radicle network publishing |
+| **Contributions** | `rad:z34ZmBpUW1uQJX3Aohe5PQDGtmMhe` | Open source contributions portfolio |
 
 ### GitHub
 
