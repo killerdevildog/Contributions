@@ -68,6 +68,14 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | `772c50a` | feat(clone): initial groundwork for rad clone --meta flag | 🟢 Open | +532 / -101 | Add FetchMode enum with Full and Meta variants to support metadata-only fetches. Threads the mode parameter through the entire fetch pipeline (CLI, Node, Protocol, Fetch). When `--meta` is used, only the repository identity is fetched, allowing users to inspect project name and description without downloading full repository data. |
 | `9f920f5` | stability/perf: reduce churn, add backoff/debounce, throttle GC, safer shutdown | 🟢 Open | +534 / -110 | Comprehensive stability and performance improvements including: defer inventory scan/refs db populate to idle, skip PoW work when target is zero, configurable network intervals, adaptive backoff for gossip/sync, debounce inventory announcements, throttle git gc during fetch, and graceful shutdown on control disconnect. |
 
+### Radicle: Desktop (`rad:z4D5UCArafTzTQpDZNQRuqswh3ury`)
+
+*Radicle Desktop Application*
+
+| Patch ID | Title | Status | Changes | Description |
+|----------|-------|--------|---------|-------------|
+| `6e78517` | fix: markdown table text displaying vertically | 🟢 Open | +4 / -1 | Fixes issue where markdown table cell text was rendering character-by-character vertically instead of horizontally. Overrides word-break and overflow-wrap to 'normal' for table cells. |
+
 ### GitHub Pull Requests
 
 #### ✅ Merged (22)
@@ -172,11 +180,11 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | Projects Created (Radicle) | 2 |
 | Projects Created (GitHub) | 6 |
 | Projects Created (Codeberg) | 1 |
-| Radicle Patches | 2 |
+| Radicle Patches | 3 |
 | GitHub PRs (Merged) | 22 |
 | GitHub PRs (Open) | 40 |
 | GitHub PRs (Closed) | 16 |
-| **Total Contributions** | **89** |
+| **Total Contributions** | **90** |
 
 ---
 
