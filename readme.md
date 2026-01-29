@@ -174,6 +174,74 @@ This repository serves as a central hub for tracking and showcasing my contribut
 
 ---
 
+## Learning Git & Open Source (The Hard Way)
+
+When I started contributing to open source, I made mistakes. A lot of them. I used AI tools to help me learn faster, but sometimes I didn't vet the output carefully enough, misunderstood codebases, or submitted PRs that missed the mark. Some maintainers were patient and helpful. Others... less so.
+
+This section documents the PRs where things went sideways — not to complain, but to be transparent about my learning journey. If you're new to open source, maybe you can learn from my mistakes.
+
+📄 **[Full details: ai_slop.md](ai_slop.md)**
+
+| Repository | PR | What Went Wrong |
+|------------|-----|-----------------|
+| OpenTTD/OpenTTD | [#14518](https://github.com/OpenTTD/OpenTTD/pull/14518) | Didn't fill in PR template properly |
+| Dav1dde/glad | [#518](https://github.com/Dav1dde/glad/pull/518) | Code did nothing — didn't understand the logic |
+| mlpack/mlpack | [#3979](https://github.com/mlpack/mlpack/pull/3979) | Addressed symptoms, not root cause |
+| pypa/pip | [#13518](https://github.com/pypa/pip/pull/13518) | Referenced non-existent issues, over-explained |
+| pypa/pip | [#13489](https://github.com/pypa/pip/pull/13489) | CI failures, didn't test properly |
+| Razakhel/RaZ | [#68](https://github.com/Razakhel/RaZ/pull/68) | MSVC compatibility issues |
+| mikke89/RmlUi | [#797](https://github.com/mikke89/RmlUi/pull/797) | Didn't test the code, included unnecessary files |
+| solvespace/solvespace | [#1610](https://github.com/solvespace/solvespace/pull/1610) | Included unnecessary .md files in commit |
+| ultimatepp/ultimatepp | [#294](https://github.com/ultimatepp/ultimatepp/pull/294) | Approach didn't fit the codebase |
+| NationalSecurityAgency/ghidra | [#8373](https://github.com/NationalSecurityAgency/ghidra/pull/8373) | Didn't properly vet the changes |
+| the-tcpdump-group/libpcap | [#1535](https://github.com/the-tcpdump-group/libpcap/pull/1535) | Second warning for auto-generated PR |
+| schellingb/ZillaLib | [#21](https://github.com/schellingb/ZillaLib/pull/21) | Code was inactive/did nothing, untested |
+| cfnptr/garden | [#85](https://github.com/cfnptr/garden/pull/85) | Low quality submission |
+
+### Lessons Learned
+
+1. **Always test your code** — Don't just compile it, actually run it
+2. **Read the contribution guidelines** — Every project has different expectations
+3. **AI is a tool, not a replacement** — Vet every line, don't blindly copy-paste
+4. **Quality over quantity** — One good PR beats ten bad ones
+5. **Be humble** — Maintainers are volunteers; respect their time
+
+### The Reality of Being a New Contributor
+
+Some things I encountered that made the learning curve steeper:
+
+- **Following harassment**: Some individuals followed me from project to project, warning maintainers about me before I even submitted anything. My intent was always to help, but once you're labeled, it sticks.
+- **Stale issues**: Many issues I tried to fix had been open for *years*. When I attempted to address them with AI assistance, some were rejected not because the fix was wrong, but because "you don't even use this library."
+- **Gatekeeping**: Some projects have implicit requirements beyond the code itself — you need to prove you're "one of them" before contributions are accepted.
+
+None of this stopped me. I kept learning.
+
+### A Note on AI and the Technology Adoption Curve
+
+Every transformative technology follows a similar pattern of resistance before acceptance. The adoption curve can be modeled as:
+
+$$A(t) = \frac{L}{1 + e^{-k(t - t_0)}}$$
+
+Where $L$ is the maximum adoption level, $k$ is the growth rate, and $t_0$ is the inflection point. This S-curve has played out repeatedly throughout history:
+
+| Technology | Initial Fears | What People Learned |
+|------------|---------------|---------------------|
+| **The Wheel** | "It will make us lazy" | Enabled civilization |
+| **Electricity** | "Invisible fire will kill us" | Proper insulation and grounding |
+| **Automobiles** | "Horseless carriages are dangerous" | Inertia, braking, speed limits |
+| **The Internet** | "A haven for criminals" | Enabled global collaboration |
+| **AI-Assisted Coding** | "It produces slop, wastes time" | *We're still learning* |
+
+People didn't understand inertia before driving — they learned the hard way that you slow down *before* the turn, not during it. They learned that cars need maintenance, that roads need rules, that licenses matter.
+
+The same will happen with AI in open source. Right now, we're in the steep part of the learning curve. Some people are crashing. Some are figuring it out. The tools will improve, best practices will emerge, and projects will adapt their contribution guidelines.
+
+**To maintainers:** Patience goes both ways. If someone is clearly trying to learn, a rejection with guidance is infinitely more valuable than mockery. The next generation of contributors will grow up with AI as natural as IDEs and linters. The question isn't *whether* AI will be part of open source — it's how we integrate it thoughtfully.
+
+**To new contributors using AI:** You are the pioneers figuring this out. Document your failures. Learn publicly. The friction you experience today will become the best practices of tomorrow.
+
+---
+
 ## Contribution Summary
 
 | Type | Count |
