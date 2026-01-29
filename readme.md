@@ -230,9 +230,12 @@ Where $L$ is the maximum adoption level, $k$ is the growth rate, and $t_0$ is th
 | **Electricity** | "Invisible fire will kill us" | Proper insulation and grounding |
 | **Automobiles** | "Horseless carriages are dangerous" | Inertia, braking, speed limits |
 | **The Internet** | "A haven for criminals" | Enabled global collaboration |
+| **Cryptocurrency** | "Only for drugs and scams" | Decentralized finance, smart contracts |
 | **AI-Assisted Coding** | "It produces slop, wastes time" | *We're still learning* |
 
 People didn't understand inertia before driving — they learned the hard way that you slow down *before* the turn, not during it. They learned that cars need maintenance, that roads need rules, that licenses matter.
+
+Cryptocurrency followed the same arc. In the early days, Bitcoin was dismissed as "magic internet money for buying drugs on Silk Road." Governments called it a threat. Banks refused to touch it. Yet the underlying innovation — trustless, decentralized consensus — didn't go away. People learned about private keys the hard way (by losing them). They learned about volatility (by panic selling). They learned about scams (by getting rugged). But through all of that, the technology matured. Exchanges got regulated. Wallets got better. Smart contracts enabled entirely new paradigms. Today, the same institutions that mocked crypto are building on it. The critics didn't stop the technology — they just delayed their own understanding of it.
 
 The same will happen with AI in open source. Right now, we're in the steep part of the learning curve. Some people are crashing. Some are figuring it out. The tools will improve, best practices will emerge, and projects will adapt their contribution guidelines.
 
