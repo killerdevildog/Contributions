@@ -31,6 +31,7 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | **rad-meta** | `rad:z4VghZAUgCSvz9s2p9AgJ9AY7ricx` | CLI for searching Radicle repositories via search.radicle.xyz |
 | **Contributions** | `rad:z34ZmBpUW1uQJX3Aohe5PQDGtmMhe` | Open source contributions portfolio |
 | **Programming_Benchmark** | `rad:z4RRJ6vMp6Ysa1WSRW7opPzQSDTfX` | Comprehensive multi-language benchmark suite comparing performance across 16+ programming languages |
+| **android_translation_layer** | `rad:z2vg3eTeo2FPmigCWgKiaNmPeAqLx` | Android Translation Layer - Run Android apps on Linux (fork with unified CMake build) |
 
 ### GitHub
 
