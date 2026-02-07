@@ -80,10 +80,11 @@ This repository serves as a central hub for tracking and showcasing my contribut
 
 ### GitHub Pull Requests
 
-#### ✅ Merged (22)
+#### ✅ Merged (23)
 
 | Repository | Title | Date | Link |
 |------------|-------|------|------|
+| **bkaradzic/bgfx** | Feature/d3d4linux integration | 2026-02-04 | [PR #3578](https://github.com/bkaradzic/bgfx/pull/3578) |
 | **queer/boxxy** | docs: replace obsolete tmux example with AWS CLI | 2026-01-13 | [PR #279](https://github.com/queer/boxxy/pull/279) |
 | **g3n/engine** | fix: use IsNaN() instead of == NaN() comparison in Ray.IntersectPlane | 2026-01-07 | [PR #317](https://github.com/g3n/engine/pull/317) |
 | **Amphuse76/GoGetEm** | changed to green sphere | 2025-08-18 | [PR #1](https://github.com/Amphuse76/GoGetEm/pull/1) |
@@ -107,10 +108,11 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | **ezEngine/ezEngine** | Implement proper packaging for ShaderExplorer sample | 2025-07-17 | [PR #1613](https://github.com/ezEngine/ezEngine/pull/1613) |
 | **STICKnoLOGIC/First-Accord** | Add killerDevildog to contributor list | 2025-07-12 | [PR #55](https://github.com/STICKnoLOGIC/First-Accord/pull/55) |
 
-#### 🟢 Open (40)
+#### 🟢 Open (41)
 
 | Repository | Title | Date | Link |
 |------------|-------|------|------|
+| **samhocevar/d3d4linux** | Fix reflection serialization for D3D11_SHADER_TYPE_DESC | 2026-02-04 | [PR #1](https://github.com/samhocevar/d3d4linux/pull/1) |
 | **sammycage/lunasvg** | Fix #213: Replace nearest-neighbor with Lanczos-8 + Gaussian blur | 2026-01-21 | [PR #259](https://github.com/sammycage/lunasvg/pull/259) |
 | **OpenLoco/OpenLoco** | Add forEachLoaded<T> helper function for object iteration | 2026-01-13 | [PR #3614](https://github.com/OpenLoco/OpenLoco/pull/3614) |
 | **OpenSourceRisk/Engine** | Fix remaining 'boostrap' typo in QuantExt | 2026-01-07 | [PR #328](https://github.com/OpenSourceRisk/Engine/pull/328) |
@@ -254,10 +256,10 @@ The same will happen with AI in open source. Right now, we're in the steep part 
 | Projects Created (GitHub) | 6 |
 | Projects Created (Codeberg) | 1 |
 | Radicle Patches | 3 |
-| GitHub PRs (Merged) | 22 |
-| GitHub PRs (Open) | 40 |
+| GitHub PRs (Merged) | 23 |
+| GitHub PRs (Open) | 41 |
 | GitHub PRs (Closed) | 16 |
-| **Total Contributions** | **91** |
+| **Total Contributions** | **93** |
 
 ---
 
