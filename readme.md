@@ -80,10 +80,13 @@ This repository serves as a central hub for tracking and showcasing my contribut
 
 ### GitHub Pull Requests
 
-#### ✅ Merged (23)
+#### ✅ Merged (27)
 
 | Repository | Title | Date | Link |
 |------------|-------|------|------|
+| **ArthurSonzogni/FTXUI** | perf: replace stringstream with pre-allocated string append in Screen | 2026-02-15 | [PR #1188](https://github.com/ArthurSonzogni/FTXUI/pull/1188) |
+| **nem0/LumixEngine** | perf: replace O(n²) GPUProfiler erase(0) loop with cursor + eraseRange | 2026-02-15 | [PR #1538](https://github.com/nem0/LumixEngine/pull/1538) |
+| **bkaradzic/bgfx** | Optimize NonLocalAllocator: sorted vector + immediate coalescing | 2026-02-14 | [PR #3593](https://github.com/bkaradzic/bgfx/pull/3593) |
 | **bkaradzic/bgfx** | Feature/d3d4linux integration | 2026-02-04 | [PR #3578](https://github.com/bkaradzic/bgfx/pull/3578) |
 | **queer/boxxy** | docs: replace obsolete tmux example with AWS CLI | 2026-01-13 | [PR #279](https://github.com/queer/boxxy/pull/279) |
 | **g3n/engine** | fix: use IsNaN() instead of == NaN() comparison in Ray.IntersectPlane | 2026-01-07 | [PR #317](https://github.com/g3n/engine/pull/317) |
@@ -106,9 +109,10 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | **psf/requests** | docs: clarify timeout parameter uses seconds in Session.request | 2025-07-18 | [PR #6994](https://github.com/psf/requests/pull/6994) |
 | **encode/django-rest-framework** | Fix mutable default arguments in OrderingFilter methods | 2025-07-18 | [PR #9742](https://github.com/encode/django-rest-framework/pull/9742) |
 | **ezEngine/ezEngine** | Implement proper packaging for ShaderExplorer sample | 2025-07-17 | [PR #1613](https://github.com/ezEngine/ezEngine/pull/1613) |
+| **pypa/wheel** | Add wheel info subcommand | 2025-07-19 | [PR #669](https://github.com/pypa/wheel/pull/669) |
 | **STICKnoLOGIC/First-Accord** | Add killerDevildog to contributor list | 2025-07-12 | [PR #55](https://github.com/STICKnoLOGIC/First-Accord/pull/55) |
 
-#### 🟢 Open (41)
+#### 🟢 Open (40)
 
 | Repository | Title | Date | Link |
 |------------|-------|------|------|
@@ -149,7 +153,6 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | **libuv/libuv** | Fix const-correctness warning in linux.c | 2025-07-19 | [PR #4843](https://github.com/libuv/libuv/pull/4843) |
 | **ValveSoftware/Proton** | feat: Add IO and process priority controls | 2025-07-19 | [PR #8913](https://github.com/ValveSoftware/Proton/pull/8913) |
 | **nothings/stb** | Document channel count behavior for stb_image_write formats | 2025-07-19 | [PR #1821](https://github.com/nothings/stb/pull/1821) |
-| **pypa/wheel** | Add wheel info subcommand | 2025-07-19 | [PR #669](https://github.com/pypa/wheel/pull/669) |
 | **GloriousPtr/ArcGameEngine** | Fix/linux build dependencies | 2025-07-17 | [PR #25](https://github.com/GloriousPtr/ArcGameEngine/pull/25) |
 | **python/cpython** | gh-118469: Document sqlite3.Binary in module constants | 2025-07-17 | [PR #136734](https://github.com/python/cpython/pull/136734) |
 | **EpicGames/UnrealEngine** | docs: Improve missing documentation comments for MovieScene constraint helpers | 2025-07-16 | [PR #13590](https://github.com/EpicGames/UnrealEngine/pull/13590) |
@@ -169,11 +172,27 @@ This repository serves as a central hub for tracking and showcasing my contribut
 | **mlpack/mlpack** | Fix/arm64 openmp convolution segfault | 2025-08-03 | [PR #3979](https://github.com/mlpack/mlpack/pull/3979) |
 | **pypa/pip** | Fix outdated upgrade recommendation syntax | 2025-08-01 | [PR #13518](https://github.com/pypa/pip/pull/13518) |
 | **profanity-im/profanity** | Fix keyfile warning messages for non-critical files | 2025-08-01 | [PR #2056](https://github.com/profanity-im/profanity/pull/2056) |
-| **ValveSoftware/Proton** | Fix libraryfolders.vdf index incrementing in setup_steam_files | 2025-08-01 | [PR #8943](https://github.com/ValveSoftware/Proton/pull/8943) |
 | **kitao/pyxel** | Fix app2exe to handle paths with spaces | 2025-07-31 | [PR #637](https://github.com/kitao/pyxel/pull/637) |
 | **Razakhel/RaZ** | Fix MSVC compatibility for TypeUtils hasAttribute() | 2025-07-30 | [PR #68](https://github.com/Razakhel/RaZ/pull/68) |
 | **JeanPhilippeKernel/RendererEngine** | feat: Add CMakePresets.json support for cross-platform builds | 2025-07-30 | [PR #461](https://github.com/JeanPhilippeKernel/RendererEngine/pull/461) |
 | **mikke89/RmlUi** | Lua: expose Element API on ElementPtr via __index forwarder | 2025-07-29 | [PR #797](https://github.com/mikke89/RmlUi/pull/797) |
+
+#### 🔒 Closed But Fix Used Internally
+
+Some projects have policies where they don't merge external PRs directly, but will take your fix, reimplement it internally, and close your PR. While git attribution may still exist in some form, the PR shows as "closed" on GitHub rather than "merged." This is a known practice at certain organizations.
+
+| Repository | Title | Date | Link | Notes |
+|------------|-------|------|------|-------|
+| **ValveSoftware/Proton** | Fix libraryfolders.vdf index incrementing in setup_steam_files | 2025-08-01 | [PR #8943](https://github.com/ValveSoftware/Proton/pull/8943) | Fix for issue #8899 was used but PR closed |
+| **VirtualBox/virtualbox** | Fix spelling errors in VirtualBox comments only | 2025-07-17 | [PR #84](https://github.com/VirtualBox/virtualbox/pull/84) | Oracle's GitHub mirror doesn't merge external PRs |
+
+**Why this happens:**
+- **Corporate policy**: Some companies (like Oracle with VirtualBox, or Valve with Proton) maintain internal repositories and only use GitHub as a mirror
+- **CLA requirements**: Legal requirements may prevent direct merges without contributor license agreements
+- **Internal review processes**: The fix may be rewritten to match internal coding standards before being applied
+- **Security review**: Changes may need internal security audits before inclusion
+
+**The reality**: Your contribution still helped the project — the fix exists in the codebase — but GitHub's metrics won't reflect it as a "merged" PR. This is frustrating for contributors tracking their impact, but it's a known trade-off when contributing to certain corporate-backed open source projects.
 
 ---
 
@@ -256,10 +275,11 @@ The same will happen with AI in open source. Right now, we're in the steep part 
 | Projects Created (GitHub) | 6 |
 | Projects Created (Codeberg) | 1 |
 | Radicle Patches | 3 |
-| GitHub PRs (Merged) | 23 |
-| GitHub PRs (Open) | 41 |
-| GitHub PRs (Closed) | 16 |
-| **Total Contributions** | **93** |
+| GitHub PRs (Merged) | 27 |
+| GitHub PRs (Open) | 40 |
+| GitHub PRs (Closed) | 15 |
+| GitHub PRs (Fix Used Internally) | 2 |
+| **Total Contributions** | **97** |
 
 ---
 
