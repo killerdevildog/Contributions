@@ -3,6 +3,9 @@
 [![GitHub](https://img.shields.io/badge/GitHub-killerdevildog-181717?style=flat&logo=github)](https://github.com/killerdevildog)
 [![Codeberg](https://img.shields.io/badge/Codeberg-killerdevildog-2185D0?style=flat&logo=codeberg)](https://codeberg.org/killerdevildog)
 [![Radicle](https://img.shields.io/badge/Radicle-killerdevildog-6B5CE7?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz48L3N2Zz4=)](https://app.radicle.xyz/nodes/seed.radicle.garden/rad:z34ZmBpUW1uQJX3Aohe5PQDGtmMhe)
+[![GitCode](https://img.shields.io/badge/GitCode-killerdevildog-E24329?style=flat&logo=git)](https://gitcode.com/killerdevildog)
+[![Gitee](https://img.shields.io/badge/Gitee-killerdevildog-C71D23?style=flat&logo=gitee)](https://gitee.com/killerdevildog)
+[![GitFlic](https://img.shields.io/badge/GitFlic-killerdevildog-orange?style=flat&logo=git)](https://gitflic.ru/user/killerdevildog)
 
 A personal repository documenting my open source contributions across multiple platforms. This also serves as a portfolio showcasing my work and technical skills.
 
